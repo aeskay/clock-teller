@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock Teller By Eskay</title>
+	<link rel="stylesheet" type="text/css" href="clockteller.css">
+	<script type="text/javascript" src="clockteller.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body id="mainBody" onload="prompter()">
+	<section id="header">
+		<div id="headerMain">
+			<div id="title">
+				<h2>ClockTeller By Eskay</h2>
+			</div>
+			<div id="clock">
+				<img src="https://img.icons8.com/color/48/000000/clock--v1.png" width="100px">
+			</div>
+			<div id="subtitle">
+				<h2>Eskay gives you the real time anywhere!</h2>
+			</div>
+		</div>
+	</section>
+	<section id="body">
+		<div id="usersName">
+			<h2><span>Hi, </span><span id="promptName"></span><span style="color: yellow">!</span></h2>
+		</div>
+		<div style="text-align: center;">
+			<img src="https://www.animatedimages.org/data/media/1309/animated-laughing-image-0104.gif" width="300px;">
+		</div>
+		<div style="font-size: 27px; color: yellow; text-align: center;">You are welcome to ClockTeller By Eskay. Find the time below!</div>
+		<br/>
+		<br/>
+
+		<div style="text-align: center;">
+			<span id="hour" class="time"></span> <span id="colon">:</span>
+			<span id="minute" class="time"></span>
+			<span id="colon">:</span>
+			<span id="second" class="time"></span>
+			<span id="ampm">:</span>
+		</div>
+<br/><br/>
+		<div style="font-size: 27px; color: yellow; text-align: center; font-weight: bold;" id="message"></div>
+		
+	</section>
+
+	<section id="footer">
+		<div>Copyright 2020 - SKA Technologies</div>
+	</section>
+
+
+
+
+	<script type="text/javascript">	
+		showTime();
+
+	</script>
+</body>
+</html>

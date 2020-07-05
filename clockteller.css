@@ -1,0 +1,138 @@
+#body{
+	background-color: rgba(70, 0, 245, 0.6);
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#header{
+	background-color: rgba(245, 0, 40, 0.8);
+	width: 100%;
+	color: white;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0px;
+}
+
+@media (min-width: 900px){
+
+	#headerMain{
+		display: grid;
+		grid-template-columns: 40% 20% 40%;
+	}
+
+	#title{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 26px;
+		padding: 2px 0px 15px 10px;
+	}
+
+	#subtitle{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		padding: 30px 10px 5px 10px;
+		text-align: right;
+
+	}
+
+	#clock{
+		text-align: center;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 900px){
+
+
+	#title{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 26px;
+		padding: 2px 0px 15px 10px;
+		text-align: center;
+	}
+
+	#subtitle{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: normal;
+		font-size: 16px;
+		padding: 30px 10px 5px 10px;
+		text-align: center;
+
+	}
+
+	#clock{
+		text-align: center;
+	}
+}
+
+#usersName{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+#promptName{
+	animation-name: name;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 10;
+}
+
+@keyframes name{
+	0%{
+		color: blue; 
+		
+	}
+	50%{
+		color: white;
+	}
+	100%{
+		color: yellow; 
+		
+	}
+}
+
+.time{
+	background-color: rgba(245, 0, 40, 0.9);
+	color: white;
+	font-size: 40px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+#colon{
+	font-size: 40px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+#ampm{
+	font-size: 40px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+#footer{
+	background-color: rgba(60, 60, 60, 0.9);
+	color: rgba(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 0px 10px 10px;
+	text-align: center;
+}
